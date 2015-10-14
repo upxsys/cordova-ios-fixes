@@ -1,0 +1,19 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-ios-application-queries-schemes",
+    "cordova_name": "IOS LSApplicationQueriesSchemes",
+    "description": "IOS LSApplicationQueriesSchemes Plugin",
+    "license": "MIT",
+    "repo": "https://github.com/chancezeus/cordova-ios-application-queries-schemes.git",
+    "keywords": [
+        "cordova",
+        "ios",
+        "LSApplicationQueriesSchemes",
+        "ios9"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
