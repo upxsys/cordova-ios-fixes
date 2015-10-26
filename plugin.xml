@@ -10,7 +10,6 @@
     <keywords>cordova,device</keywords>
     <repo>https://github.com/upxsys/cordova-ios-fixes.git</repo>
     <platform name="ios">
-        <preference name="ios-XCBuildConfiguration-ENABLE_BITCODE" value="NO" />
         <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
             <dict>
                 <key>NSExceptionDomains</key>
