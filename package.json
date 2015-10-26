@@ -1,14 +1,13 @@
 {
     "version": "0.0.1",
-    "name": "cordova-ios-application-queries-schemes",
-    "cordova_name": "IOS LSApplicationQueriesSchemes",
-    "description": "IOS LSApplicationQueriesSchemes Plugin",
+    "name": "cordova-ios-fixes",
+    "cordova_name": "Cordova IOS Fixes",
+    "description": "Cordova IOS Fixes",
     "license": "MIT",
-    "repo": "https://github.com/chancezeus/cordova-ios-application-queries-schemes.git",
+    "repo": "https://github.com/upxsys/cordova-ios-fixes.git",
     "keywords": [
         "cordova",
         "ios",
-        "LSApplicationQueriesSchemes",
         "ios9"
     ],
     "platforms": [

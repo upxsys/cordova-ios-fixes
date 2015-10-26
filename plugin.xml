@@ -4,27 +4,26 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-ios-application-queries-schemes"
         version="0.0.1">
-    <name>IOS LSApplicationQueriesSchemes</name>
-    <description>IOS LSApplicationQueriesSchemes Plugin</description>
+    <name>Cordova iOS Fixes</name>
+    <description>Cordova iOS Fixes</description>
     <license>Apache 2.0</license>
     <keywords>cordova,device</keywords>
-    <repo>https://github.com/chancezeus/cordova-ios-application-queries-schemes.git</repo>
+    <repo>https://github.com/upxsys/cordova-ios-fixes.git</repo>
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-            <array>
-                <string>fb</string>
-                <string>gplus</string>
-                <string>instagram</string>
-                <string>kindle</string>
-                <string>linkedin</string>
-                <string>pinterest</string>
-                <string>tumblr</string>
-                <string>twitter</string>
-                <string>whatsapp</string>
-                <string>yelp</string>
-                <string>youtube</string>
-            </array>
+        <preference name="ios-XCBuildConfiguration-ENABLE_BITCODE" value="NO" />
+        <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
+            <dict>
+                <key>NSExceptionDomains</key>
+                <dict>
+                    <key>autowereld.nl</key>
+                    <dict>
+                        <key>NSIncludesSubdomains</key>
+                        <true/>
+                        <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                        <false/>
+                    </dict>
+                </dict>
+            </dict>
         </config-file>
     </platform>
-
 </plugin>
